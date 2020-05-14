@@ -1,0 +1,8 @@
+.rainbow {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.19, #f2f), color-stop(0.22, #22f), color-stop(0.3, #2ff), color-stop(0.4, #2f2),color-stop(0.5, #2f2), color-stop(0.6, #ff2), color-stop(0.7, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.19, #f2f), color-stop(0.22, #22f), color-stop(0.3, #2ff), color-stop(0.4, #2f2),color-stop(0.5, #2f2), color-stop(0.6, #ff2), color-stop(0.7, #f22) );
+  color:transparent;
+  font-size: 100px;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
